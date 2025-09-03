@@ -5,6 +5,11 @@
 body{
   font-family: "Figtree", sans-serif;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 .outer{
     display: flex;
@@ -14,6 +19,22 @@ body{
     height:100vh;
     background-color: rgba(250, 200, 1, 0.743);
 }
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+  }
+
+  .card h1 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+}
+
 .card{
     width: 360px;
     height: 470px;
