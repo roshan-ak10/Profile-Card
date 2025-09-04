@@ -22,6 +22,7 @@ body{
 
 
 .card{
+  display:relative;
     width: 360px;
     height: 470px;
     border: 2px solid black;
@@ -31,8 +32,10 @@ body{
 
 }
 .card img{
-    margin: 12px 12px;
-    border-radius: 10px;
+display: absolute;
+margin-left: 3.5%;
+margin-top:3%;
+border-radius: 10px;
 }
 .smallbox{
     margin: 0px;
