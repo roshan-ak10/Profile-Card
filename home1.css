@@ -80,13 +80,16 @@ h2:hover{
   font-weight: 700;
   font-style: normal;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .card {
-    width: 80%;
+    display:relative;
+    width: 70%;
     padding: 20px;
     margin: 10px auto;
   }
-
+.card img{
+display: absolute;
+margin-left: 0;}
   .card h1 {
     font-size: 1.5rem;
   }
